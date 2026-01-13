@@ -80,7 +80,7 @@ int main() {
 
 	HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
 
-	int tick = 5; // 입력 보정용 틱
+	int tick = 10; // 입력 보정용 틱
 	int speedDelay = 100; // 게임 스피드 조절
 	int bufferTick = 0;
 	int score = 0;
